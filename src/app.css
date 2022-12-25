@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Dana";
+    src: url("/fonts/Dana-Thin.ttf");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Dana";
+    src: url("/fonts/Dana-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Dana";
+    src: url("/fonts/Dana-Bold.ttf");
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Dana' !important;
+}
+
+.bg-image-blur {
+    background-image: url('./assets/app_bg.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 846px;
+    width: 868px;
+    z-index: -1;
+    right: 125px;
+    top: 19px;
+}
