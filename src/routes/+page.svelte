@@ -11,28 +11,28 @@
 
 <svelte:head>
 	<title>قهوه ت با من</title>
-	<meta name="description" content="" />
+	<meta name="description" content="قهوه ت با من" />
 	<link rel="canonical" href="https://ghahvatbaman.ir" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!-- SEO -->
 
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Basic App Landing Page" />
+	<meta property="og:title" content="قهوه ت با من" />
 	<meta
 		property="og:description"
 		content="Save time and get to market faster with this free fully responsive single page html template built with TailwindCSS."
 	/>
-	<meta property="og:image" content="LINK TO THE IMAGE FILE" />
+	<meta property="og:image" content="https://ghahvatbaman.ir/icon.png" />
 	<meta property="og:url" content="https://ghahvatbaman.ir" />
-	<meta property="og:site_name" content="Basic App Landing Page" />
-	<meta name="twitter:title" content="TITLE OF POST OR PAGE" />
+	<meta property="og:site_name" content="قهوه ت با من" />
+	<meta name="twitter:title" content="قهوه ت با من" />
 	<meta
 		name="twitter:description"
-		content="Save time and get to market faster with this free fully responsive single page html template built with TailwindCSS."
+		content="قهوه ت با من"
 	/>
-	<meta name="twitter:image" content="LINK TO IMAGE" />
-	<meta name="twitter:site" content="@britzdm" />
-	<meta name="twitter:creator" content="@britzdm" />
+	<meta name="twitter:image" content="https://ghahvatbaman.ir/icon.png" />
+	<meta name="twitter:site" content="@ghahvatbaman" />
+	<meta name="twitter:creator" content="@ghahvatbaman" />
 	<meta name="robots" content="index" />
 	<!-- end SEO -->
 </svelte:head>
