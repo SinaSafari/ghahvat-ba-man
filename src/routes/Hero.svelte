@@ -1,7 +1,7 @@
 <section
 	class="py-8 px-4 md:px-8 lg:py-16 2xl:py-40 2xl:px-60 mx-auto grid grid-cols-1 gap-8 lg:grid-cols-12 relative"
 >
-	<div class="col-span-6 relative">
+	<div class="col-span-6 relative order-2 lg:order-1">
 		<div class="relative aspect-[366/729] mx-auto max-w-[320px]">
 			<div
 				class="shadow-xl absolute inset-y-[calc(1/729*100%)] right-[calc(5/729*100%)] left-[calc(7/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)]"
@@ -99,7 +99,7 @@
 			/>
 		</div>
 	</div>
-	<div class="col-span-6 xl:place-self-center mb-8 mt-8 xl:mt-0 lg:mb-0">
+	<div class="col-span-6 xl:place-self-center mb-8 mt-8 xl:mt-0 lg:mb-0 order-1 lg:order-2">
 		<h1 class="text-3xl md:text-4xl xl:text-5xl 3xl:text-6xl font-medium text-center lg:text-right">
 			قهوه ت با من
 		</h1>

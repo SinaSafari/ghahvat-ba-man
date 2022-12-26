@@ -21,6 +21,7 @@
 			نسخه پیش نمایش
 		</button>
 	</div>
+
 	<!-- mobile menu button -->
 	<button
 		type="button"
@@ -28,39 +29,11 @@
 		aria-controls="mobile-menu"
 		aria-expanded="false"
 	>
-		<span class="sr-only">Open main menu</span>
-		<!--
-		Menu open: "hidden", Menu closed: "block"
-	  -->
-		<svg
-			class="block h-6 w-6"
-			xmlns="http://www.w3.org/2000/svg"
-			fill="none"
-			viewBox="0 0 24 24"
-			stroke-width="1.5"
-			stroke="currentColor"
-			aria-hidden="true"
+		<button
+			class="px-4 py-3 bg-yellow-400 hover:bg-yellow-500 hover:cursor-pointer text-white font-medium rounded mx-1"
 		>
-			<path
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-			/>
-		</svg>
-		<!-- 
-		Menu open: "block", Menu closed: "hidden"
-	  -->
-		<svg
-			class="hidden h-6 w-6"
-			xmlns="http://www.w3.org/2000/svg"
-			fill="none"
-			viewBox="0 0 24 24"
-			stroke-width="1.5"
-			stroke="currentColor"
-			aria-hidden="true"
-		>
-			<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-		</svg>
+			نسخه پیش نمایش
+		</button>
 	</button>
 	<!-- mobile menu -->
 	<div id="mobile-menu" class="col-span-2 bg-slate-50 p-2 mt-4 rounded shadow-lg hidden lg:hidden">
