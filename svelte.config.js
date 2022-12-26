@@ -10,15 +10,16 @@ const config = {
 
 
 	kit: {
-		adapter: adapter({
-			pages: "build",
-			assets: "build"
-		}),
+		adapter: adapter()
+// 		adapter: adapter({
+// 			pages: "build",
+// 			assets: "build"
+// 		}),
 		// prerender: { default: true },
-		paths: {
-			// change below to your repo name
-			base: "/ghahvat-ba-man",
-		},
+// 		paths: {
+// 			// change below to your repo name
+// 			base: "/ghahvat-ba-man",
+// 		},
 	}
 };
 
