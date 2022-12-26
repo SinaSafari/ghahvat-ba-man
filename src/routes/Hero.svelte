@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section
 	class="py-8 px-4 md:px-8 lg:py-16 2xl:py-40 2xl:px-60 mx-auto grid grid-cols-1 gap-8 lg:grid-cols-12 relative"
 >
@@ -13,15 +17,15 @@
 					<!-- content here -->
 					<div class="bg-slate-900 w-full h-full">
 						<div class="flex items-center">
-							<img class="w-8 mt-5 mx-auto text-white" src="./assets/menu.svg" alt="logo" />
-							<img class="w-8 mt-5 mx-auto rounded-full" src="/icon.png" alt="logo" />
-							<img class="w-8 mt-5 mx-auto text-white" src="./assets/logout.svg" alt="logo" />
+							<img class="w-8 mt-5 mx-auto text-white" src="{base}/assets/menu.svg" alt="logo" />
+							<img class="w-8 mt-5 mx-auto rounded-full" src="{base}/icon.png" alt="logo" />
+							<img class="w-8 mt-5 mx-auto text-white" src="{base}/assets/logout.svg" alt="logo" />
 						</div>
 
 						<div class="rounded-2xl bg-slate-50 mt-4 h-full p-4">
 							<div class="flex justify-between p-1 mb-4 border-b border-slate-300 px-2 pt-4 pb-4">
 								<p class="text-sm font-medium">حمایت ها</p>
-								<img class="w-5 h-5" src="./assets/close.svg" alt="logo" />
+								<img class="w-5 h-5" src="{base}/assets/close.svg" alt="logo" />
 							</div>
 							<!-- card -->
 							<div class="border bg-slate-300 shadow rounded-md p-4 max-w-sm w-full mx-auto mb-4">
@@ -91,7 +95,7 @@
 				<rect x="154" y="29" width="56" height="5" rx="2.5" fill="#D4D4D4" /></svg
 			><img
 				alt=""
-				src="./assets/phone-frame.svg"
+				src="{base}/assets/phone-frame.svg"
 				width="366"
 				height="729"
 				decoding="async"

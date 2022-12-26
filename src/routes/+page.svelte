@@ -5,7 +5,6 @@
 	import Benefits from './Benefits.svelte';
 	import FeatureA from './FeatureA.svelte';
 	import FeatureB from './FeatureB.svelte';
-	import Testimonial from './Testimonial.svelte';
 	import Cta from './CTA.svelte';
 	export const prerender = true;
 </script>

@@ -1,8 +1,12 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <header
 	class="p-4 lg:py-2 lg:px-0 container mx-auto grid lg:flex lg:justify-between grid-cols-2 text-slate-700"
 >
 	<nav class="flex items-center">
-		<img class="w-12 ml-16 rounded" src="/icon.png" alt="logo" />
+		<img class="w-12 ml-16 rounded" src="{base}/icon.png" alt="logo" />
 
 		<ul class="lg:flex hidden">
 			<li class="mr-8">

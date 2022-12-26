@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section
 	class="py-8 px-4 md:px-8 lg:py-16 2xl:px-60 mx-auto grid gap-8 grid-cols-12 bg-yellow-500 relative text-slate-100"
 >
@@ -9,14 +13,14 @@
 	</div>
 	<div class="md:col-span-6 col-span-12 flex self-center items-center md:justify-self-end">
 		<picture>
-			<source srcset="./assets/app_store.webp" type="image/webp" />
-			<source srcset="./assets/app_store.png" type="image/png" />
-			<img src="./assets/app_store.png" alt="" />
+			<source srcset="{base}/assets/app_store.webp" type="image/webp" />
+			<source srcset="{base}/assets/app_store.png" type="image/png" />
+			<img src="{base}/assets/app_store.png" alt="" />
 		</picture>
 		<picture>
-			<source srcset="./assets/gplay.webp" type="image/webp" />
-			<source srcset="./assets/gplay.png" type="image/png" />
-			<img src="./assets/gplay.png" alt="" />
+			<source srcset="{base}/assets/gplay.webp" type="image/webp" />
+			<source srcset="{base}/assets/gplay.png" type="image/png" />
+			<img src="{base}/assets/gplay.png" alt="" />
 		</picture>
 	</div>
 </section>

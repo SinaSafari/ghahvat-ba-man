@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section
 	class="py-8 px-4 md:px-8 lg:py-16 2xl:py-40 2xl:px-60 mx-auto grid grid-cols-1 gap-8 lg:grid-cols-12 relative"
 >
@@ -10,7 +14,7 @@
 	<div class="col-span-6 relative grid grid-cols-12 grid-rows-8 gap-4">
 		<img
 			class="hidden xl:block absolute z-0 right-[-33px] top-[-132px]"
-			src="./assets/app_bg.svg"
+			src="{base}/assets/app_bg.svg"
 			alt=""
 		/>
 		<div
